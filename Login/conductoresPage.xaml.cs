@@ -15,26 +15,19 @@ using System.Windows.Shapes;
 namespace Login
 {
     /// <summary>
-    /// Lógica de interacción para homePage.xaml
+    /// Lógica de interacción para conductoresPage.xaml
     /// </summary>
-    public partial class homePage : Window
+    public partial class conductoresPage : Window
     {
-        public homePage()
+        public conductoresPage()
         {
             InitializeComponent();
         }
 
-        private void registrarIngresos(object sender, RoutedEventArgs e)
+        private void irHome(object sender, RoutedEventArgs e)
         {
-            opeIngresoPage opeIngresoPage = new opeIngresoPage();
-            opeIngresoPage.Show();
-            this.Close();
-        }
-
-        private void irConductores(object sender, RoutedEventArgs e)
-        {
-            conductoresPage conductoresPage = new conductoresPage();
-            conductoresPage.Show();
+            homePage menu = new homePage();
+            menu.Show();
             this.Close();
         }
     }

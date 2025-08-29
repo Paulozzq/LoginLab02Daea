@@ -14,7 +14,7 @@
             </MenuItem>
 
             <MenuItem Header="Mantenimientos">
-                <MenuItem Header="Conductores"/>
+                <MenuItem Header="Conductores" Click="irConductores"/>
                 <MenuItem Header="Transportistas"/>
                 <MenuItem Header="Camiones"/>
                 <MenuItem Header="Productos"/>
@@ -42,7 +42,7 @@
                 <WrapPanel HorizontalAlignment="Center" Margin="0,20,0,0">
                     <Button Content="Ingresos" Width="120" Height="40" Margin="10" Click="registrarIngresos"/>
                     <Button Content="Salidas" Width="120" Height="40" Margin="10"/>
-                    <Button Content="Conductores" Width="120" Height="40" Margin="10"/>
+                    <Button Content="Conductores" Width="120" Height="40" Margin="10" Click="irConductores"/>
                     <Button Content="Reportes" Width="120" Height="40" Margin="10"/>
                 </WrapPanel>
             </StackPanel>
